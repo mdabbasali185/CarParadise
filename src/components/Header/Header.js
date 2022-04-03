@@ -4,13 +4,13 @@ import "./Header.css";
 const Header = () => {
   return (
     <nav className="nav-link">
-      <div className="container d-flex justify-content-center gap-5">
+      <div className="container d-flex justify-content-center align-items-center gap-5">
         <div>
           <h1>
-            Car<span>Paradise</span>
+            Car<span className="left-side">Paradise</span>
           </h1>
         </div>
-        <div  className="d-flex gap-4">
+        <div className="d-flex gap-4">
           <NavLink
             className={({ isActive }) => (isActive ? "link-active" : "link")}
             to="/"

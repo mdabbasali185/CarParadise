@@ -1,9 +1,16 @@
-.link{
-    color: blue;
+.link {
+  /* color: blueviolet; */
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
-.link-active{
-    color: blueviolet;
+
+.link-active {
+  color: #FDA7DF;
+
+  font-size: 1.3rem;
 }
-.nav-link{
-    background: #000;
+
+.nav-link {
+  background: #222f3e;
 }
