@@ -1,14 +1,19 @@
 .link {
-  /* color: blueviolet; */
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
+}
+.link:hover{
+    color: #FDA7DF;
 }
 
 .link-active {
   color: #FDA7DF;
 
   font-size: 1.3rem;
+}
+.link-active:hover{
+    color: #FDA7DF;
 }
 
 .nav-link {
