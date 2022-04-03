@@ -1,0 +1,9 @@
+.link{
+    color: blue;
+}
+.link-active{
+    color: blueviolet;
+}
+.nav-link{
+    background: #000;
+}
