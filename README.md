@@ -1,6 +1,6 @@
 # CarParadise
 
-This project powered by [CarParadise](https://github.com/facebook/create-react-app).
+This project powered by [CarParadise](https://carparadisemdabbasali.netlify.app/).
 
 ## Authors
 
