@@ -18,12 +18,6 @@ const Dashboard = () => {
       .then((res) => res.json())
       .then((data) => setChart(data));
   }, []);
-  const [pieChart, setPieChart] = useState([]);
-  useEffect(() => {
-    fetch("product.json")
-      .then((res) => res.json())
-      .then((data) => setPieChart(data));
-  }, []);
 
   return (
     <section>
@@ -34,10 +28,8 @@ const Dashboard = () => {
             left: 0,
             bottom: 0,
           }}>
-          <Line dataKey={"investment"}></Line>
-          <Line dataKey={"revenue"}></Line>
-          <Line dataKey={"sell"}></Line>
-          <XAxis dataKey={"month"}></XAxis>
+          <Line type="monotone" dataKey="sell"></Line>
+          <XAxis dataKey="month"></XAxis>
           <YAxis></YAxis>
           <Tooltip></Tooltip>
           <Legend></Legend>
@@ -47,7 +39,7 @@ const Dashboard = () => {
         <AreaChart
           width={750}
           height={450}
-          data={pieChart}
+          data={chart}
           margin={{
             top: 10,
             right: 30,
@@ -76,20 +68,7 @@ const Dashboard = () => {
             stroke="#833470"
             fill="#6F1E51"
           />
-          <Area
-            type="monotone"
-            dataKey="sell"
-            stackId="1"
-            stroke="#1289A7"
-            fill="#A3CB38"
-          />
-          <Area
-            type="monotone"
-            dataKey="month"
-            stackId="1"
-            stroke="#006266"
-            fill="#ffc658"
-          />
+        
         </AreaChart>
       </div>
     </section>

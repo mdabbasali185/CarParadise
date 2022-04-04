@@ -1,38 +1,44 @@
 [
   {
-    "month": "Jan",
-    "investment": 100900,
-    "sell": 341,
-    "revenue": 20401
+    "_id": "624ac2eb6b6bda4bb08f731a",
+    "name": "Audra Lloyd",
+    "about": "2016 Mercedes Benz GLC 300 49K miles. Cracked piston. Should not happen with an engine at this low of miles. There are hundreds of posts on the issue over several years of this happening. MB corporate refuses to be proactive and recall. If you are one of the unfortunate ones who has this happen just out of warranty expect a 14 to 24K repair bill. If you are still in warranty have compression checked and research issue",
+    "rating": "3.4",
+    "picture": "img/img1.jpg"
   },
   {
-    "month": "Feb",
-    "investment": 300000,
-    "sell": 523,
-    "revenue": 54500
+    "_id": "624ac2ebaa9a6c2f0ba0e7d9",
+    "name": "Dolly Sparks",
+    "about": "We bought a 2021 Mercedes Sprinter RV and my one concern is that the cassis was Mercedes. About 8 months of owning this something is wrong with the turbo, dropped this off at Mercedes Melbourne FL after making an appointment 3 weeks out and this still has not been looked after 5 weeks now. Do your homework on service centers prior to buying, in Central FL there are only 3 service centers for sprinter. Go with a ford or Ram for an rv cassis they have hundreds of services centers!",
+    "rating": "4.4",
+    "picture": "img/img2.jpg"
   },
   {
-    "month": "March",
-    "investment": 508000,
-    "sell": 826,
-    "revenue": 87010
+    "_id": "624ac2eb2719a2734488124e",
+    "name": "Mays Page",
+    "about": "Be careful buying Mercedes in Luxembourg. They have one of the worse services in the world. I was asking to fix speaker for 2 years, but they continue convincing me that everything is ok. And when warranty is expired they admitted that speaker should be changed. Be more assertive to avoid manipulations in this service. Almost no one is speaking English. Can easily forgot to call you about appointment.",
+    "rating": "4.5",
+    "picture": "img/img3.jpg"
   },
   {
-    "month": "April",
-    "investment": 690000,
-    "sell": 929,
-    "revenue": 50405
+    "_id": "624ac2eb15b6103777657192",
+    "name": "Bishop Wells",
+    "about": "Suspension drive air not as portrayed. The vehicle is claustrophobic for the rear seats. Suspension plays a major roll in terrible roads or off road drives. Tech does not adapt to the harsh environment. Displays and feel are totally different and nerve racking as to the investment.",
+    "rating": "4.8",
+    "picture": "img/img4.jpg"
   },
   {
-    "month": "May",
-    "investment": 490000,
-    "sell": 471,
-    "revenue": 60900
+    "_id": "624ac2ebd5ec9e1b66bb5ea3",
+    "name": "Tamara Frank",
+    "about": "This car's performance and comfort of my 2017 c- class sedan is perfect for long trips. The dealership has been very informative and I am very pleased with having purchased a prepaid service plan since this is saving me money on increased costs of parts due to supply chain problems.",
+    "rating": "5.0",
+    "picture": "img/img5.jpg"
   },
   {
-    "month": "June",
-    "investment": 830000,
-    "sell": 990,
-    "revenue": 21000
+    "_id": "624ac2ebd5ec9e1b66bb5nj3",
+    "name": "Samara Frank",
+    "about": "I purchased my Mercedes Benz (MB) in 2018, new. 1 month after the warranty expired, I had an ABS sensor go bad. The van had 18,000 miles on it. It was replaced and the next day the ABS light came on again. Thinking it was a faulty sensor I returned it to the repair shop. They called to tell me that this time it was the other wheel's ABS sensor. For a vehicle I had purchased specifically for the reliability and dependability I was extremely disappointed that these sensors would go bad so quickly. This is a MERCEDES.",
+    "rating": "4.0",
+    "picture": "img/img6.png"
   }
 ]

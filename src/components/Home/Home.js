@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Mercedes from "../image/Mercedes.png";
 import './Home.css'
-
 const Home = () => {
     return (
         <main>
@@ -14,7 +13,7 @@ const Home = () => {
                     <h1 className='text-secondary fw-bold'><span className='text-success fst-italic'>Mercedes</span>-AMG-GT-Roadster</h1>
                     <h2 className='text-secondary fw-bold'>Your best Car</h2>
                     <p className=''>The Mercedes-Benz V-Class combines comfort and luxury on a large scale. GUARD: Special protection version of the new S-Class. Unique integrated concept meets highest protection level for civilian vehicles. The new S 680 GUARD 4MATIC.</p>
-                    <Link to='/buy-now' className='buy-btn'>Buy Now</Link>
+                    <Link to='/' className='buy-btn'>Buy Now</Link>
                 </div>
             </div>
             <div>

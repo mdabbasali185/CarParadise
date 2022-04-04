@@ -1,10 +1,10 @@
-import React from 'react';
-
+import React, { createContext } from 'react';
+export const CarContext = createContext()
 const Review = () => {
     return (
-        <div>
-            
-        </div>
+        <CarContext.Provider value=''>
+
+        </CarContext.Provider>
     );
 };
 
