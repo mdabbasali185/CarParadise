@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Mercedes from "../image/Mercedes-AMG-GT-Roadster-roof.jpg";
+import Mercedes from "../image/Mercedes.png";
 import './Home.css'
 
 const Home = () => {
