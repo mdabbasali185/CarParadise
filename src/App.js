@@ -8,11 +8,12 @@ import About from "./components/About/About";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Blogs from "./components/Blogs/Blogs";
 import NotFound from "./components/NotFound/NotFound";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
+    <section className="App">
+     <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/review" element={<Review></Review>}></Route>
@@ -21,7 +22,8 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </div>
+      <Footer></Footer>
+    </section>
   );
 }
 
