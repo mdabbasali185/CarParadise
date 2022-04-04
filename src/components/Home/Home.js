@@ -34,10 +34,12 @@ const Home = () => {
         <h1 className="text-center text-secondary fw-bold mt-5">
           Customer Review {card.length}
         </h1>
+        <div className="card-compo">
         {card.map(
           (item, index) => index < 3 && <Review product={item}></Review>
         )}
-        <Link className="reviewBtn" to="/review"> See more</Link>
+        </div>
+        <div className=" d-flex justify-content-center"><Link className="reviewBtn" to="/review"> See more</Link></div>
       </div>
     </main>
   );
