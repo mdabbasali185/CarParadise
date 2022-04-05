@@ -36,7 +36,7 @@ const Home = () => {
         </h1>
         <div className="card-compo">
         {card.map(
-          (item, index) => index < 3 && <Review product={item}></Review>
+          (item, index) => index < 3 && <Review key={index} product={item}></Review>
         )}
         </div>
         <div className=" d-flex justify-content-center"><Link className="reviewBtn" to="/review"> See more</Link></div>
