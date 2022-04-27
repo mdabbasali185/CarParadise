@@ -25,19 +25,19 @@ const Home = () => {
             integrated concept meets highest protection level for civilian
             vehicles. The new S 680 GUARD 4MATIC.
           </p>
-          <Link to="/" className="buy-btn ">
-            Buy Now
+          <Link to="/" className="animated-button ">
+            <span>Buy Now</span>
           </Link>
         </div>
       </div>
       <div className="container mb-5">
-        <h1 className="text-center text-secondary fw-bold mt-5">
+        <h1 className="text-center text-secondary fw-bold mt-5 animate-charcter">
           Customer Review {card.length}
         </h1>
         <div className="card-compo">
-        {card.map(
-          (item, index) => index < 3 && <Review key={index} product={item}></Review>
-        )}
+          {card.map(
+            (item, index) => index < 3 && <Review key={index} product={item}></Review>
+          )}
         </div>
         <div className=" d-flex justify-content-center"><Link className="reviewBtn" to="/review"> See more</Link></div>
       </div>

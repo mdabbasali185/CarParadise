@@ -12,7 +12,7 @@ const NotFound = () => {
         <p className="mb-5">
           You might have the wrong address, or the page may have moved.
         </p>
-       
+
       </div>
       <div>
         <div>
